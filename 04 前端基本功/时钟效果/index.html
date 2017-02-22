@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>时钟效果</title>
+</head>
+<style>
+    .clock {
+        width: 600px;
+        height: 600px;
+        margin: 20px auto;
+        position: relative;
+        background: url(images/clock.jpg) no-repeat;
+    }
+    .clock div {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .h {
+        background: url(images/hour.png) no-repeat center center;
+    }
+    .m {
+        background: url(images/minute.png) no-repeat center center;
+    }
+    .s {
+        background: url(images/second.png) no-repeat center center;
+    }
+</style>
+
+<body>
+<div class="clock">
+    <div class="h" id="hour"></div>
+    <div class="m" id="minute"></div>
+    <div class="s" id="second"></div>
+</div>
+</body>
+<script>
+    var hour = document.getElementById("hour");
+    var minute = document.getElementById("minute");
+    var second = document.getElementById("second");
+
+    // 变量初始化
+    var s = 0,m = 0, h = 0, ms = 0;
+    setInterval(function () {
+        var date = new Date();
+        // 获取当前的毫秒数
+        ms = date.getMilliseconds();
+        // 秒
+        s = date.getSeconds() + ms / 1000;
+        // 分
+        m = date.getMinutes() + s / 60;
+        // 小时
+        h = date.getHours() % 12 + m / 60;
+
+        // 旋转角度
+        // Firefox兼容
+        hour.style.mozTransform = "rotate("+ h*30 +"deg)";
+        minute.style.mozTransform = "rotate("+ m*6 +"deg)";
+        second.style.mozTransform = "rotate("+ s*6 +"deg)";
+        // Safari 和 Chrome
+        hour.style.webkitTransform = "rotate("+ h*30 +"deg)";
+        minute.style.webkitTransform = "rotate("+ m*6 +"deg)";
+        second.style.webkitTransform = "rotate("+ s*6 +"deg)";
+        // Opera
+        hour.style.oTransform = "rotate("+ h*30 +"deg)";
+        minute.style.oTransform = "rotate("+ m*6 +"deg)";
+        second.style.oTransform = "rotate("+ s*6 +"deg)";
+        // IE9
+        hour.style.msTransform = "rotate("+ h*30 +"deg)";
+        minute.style.msTransform = "rotate("+ m*6 +"deg)";
+        second.style.msTransform = "rotate("+ s*6 +"deg)";
+    },1000);
+
+</script>
+</html>
