@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>点击倒计时</title>
+</head>
+<body>
+<input type="text">
+<button id="btn" style="width: 100px;height: 22px;">点击发送短信</button>
+</body>
+</html>
+<script>
+    var btn = document.getElementById("btn");
+    // 倒计10秒
+    var count = 10;
+    var timer = null;
+    btn.onclick = function () {
+        // 开启定时器前先削除之前的定时器
+        clearInterval(timer);
+
+        // 让按钮不可点
+        this.disabled = true;
+
+        // 保存临时变量this
+        var that = this;
+
+        timer = setInterval(function sendTextMessage() {
+            count--;
+
+
+            // 修改button的值,因为button是个双标签,所以要更改他的值使用innerHTML,而不是value
+            if (count >= 0) {
+                that.innerHTML = "还剩"+ count +"秒";
+            } else {
+                that.innerHTML = "重新发送短信"
+                that.disabled = false;
+                clearInterval(timer);
+                count = 5;
+            }
+        },1000);
+
+    }
+</script>
