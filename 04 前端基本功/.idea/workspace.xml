@@ -58,11 +58,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="4.返回字符串的位置.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="4.返回字符串的位置.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/字符串操作/4.返回字符串的位置.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
               <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="5.url网址编码.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/字符串操作/5.url网址编码.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -91,6 +101,7 @@
         <option value="$PROJECT_DIR$/字符串操作/2.字符串的位置.html" />
         <option value="$PROJECT_DIR$/字符串操作/3.检测字符串长度.html" />
         <option value="$PROJECT_DIR$/字符串操作/4.返回字符串的位置.html" />
+        <option value="$PROJECT_DIR$/字符串操作/5.url网址编码.html" />
       </list>
     </option>
   </component>
@@ -244,12 +255,12 @@
       <updated>1487740183571</updated>
       <workItem from="1487740185190" duration="979000" />
       <workItem from="1487756309857" duration="13000" />
-      <workItem from="1487776048775" duration="11372000" />
+      <workItem from="1487776048775" duration="11452000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12364000" />
+    <option name="totallyTimeSpent" value="12444000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1260" height="716" extended-state="0" />
@@ -384,6 +395,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/字符串操作/5.url网址编码.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
           <folding />
         </state>
       </provider>
