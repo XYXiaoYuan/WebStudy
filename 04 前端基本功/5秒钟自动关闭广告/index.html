@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>5秒钟自动关闭广告</title>
+    <style>
+        img {
+            position: absolute;
+            top: 0;
+        }
+        div {
+            margin:100px auto;
+            width: 200px;
+            height: 60px;
+            background: red;
+            line-height: 60px;
+            text-align: center;
+        }
+        #left {
+            left: 0;
+            float: left;
+        }
+        #right {
+            right: 0;
+            float: right;
+        }
+    </style>
+</head>
+<body>
+<img src="images/1.gif" alt="" id="left">
+<img src="images/2.gif" alt="" id="right">
+<div id="showText">自动关闭广告提示</div>
+</body>
+</html>
+<script>
+    // 获取ID元素
+    function $(id) {
+        return document.getElementById(id);
+    }
+    // 隐藏元素
+    function hide(id) {
+        $(id).style.display = "none";
+    }
+    // 显示元素
+    function show(id) {
+        $(id).style.display = "block";
+    }
+
+
+    var count = 5;
+    setInterval(function () {
+        count--;
+        if(count >=0) {
+            $("showText").innerText = +(count+1)+"秒钟自动关闭广告"
+            hideAd();
+        } else {
+            count = 0;
+        }
+    },1000)
+
+    function hideAd() {
+        setTimeout(closedAd,5000);
+        function closedAd() {
+            // 调用隐藏
+            hide("left");
+            hide("right");
+            $("showText").innerText = "广告已经自动隐藏了";
+        }
+    }
+</script>
