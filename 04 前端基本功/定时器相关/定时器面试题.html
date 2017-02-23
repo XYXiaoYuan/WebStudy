@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>定时器面试题</title>
+</head>
+<body>
+<p>
+    JavaScript是单线程执行的,也就是无法同时执行多段代码,当某一段代码正在执行的时候,<br/>
+    所有后续的任务都必须等待,形成一个队列,一旦当前任务执行完毕,再从队列中取出下一个任务.<br/>
+    这也常被称为"阻塞式执行".<br/><br/>
+    如果代码中设定了一个setTimeout,那么浏览器便会在合适的时间,将代码插入任务队列,<br/>
+    如果这个时间设为0,就代表立即插入队列,但不是立即执行,仍然要等待前面代码执行完毕.<br/>
+    所以setTimeout并不能保证代码执行的时间,是否及时执行取决于JavaScript线程是拥挤还是空闲
+
+</p>
+</body>
+</html>
+<script>
+    var num = 10;
+    alert(1);
+    num = 20;
+    setTimeout("alert(num)",0);
+    alert(3);
+    num = 30;
+</script>
