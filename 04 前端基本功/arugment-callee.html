@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div><p>arguments 对象</p>
+    function fn(a,b,c) {  <br/>
+    console.log(a+b+c); alert(arguments.length;) <br/>
+    } <br/>
+    fn(1,3,4,6); <br/>
+    arguments.length;  返回的是  实参的个数。 <br/>
+    但是这个对象有讲究，他只在正在使用的函数内使用。 <br/>
+    arguments.callee; <br/>
+    返回的是正在执行的函数。 也是在函数体内使用。 在使用函数递归调用时推荐使用arguments.callee代替函数名本身。 <br/>
+    function fn() {   <br/>
+        console.log(arguments.callee);  <br/>
+    }  <br/>
+    这个callee 就是 ：   function fn() {  <br/>
+        console.log(arguments.callee); <br/>
+    } <br/>
+</div>
+</body>
+</html>
