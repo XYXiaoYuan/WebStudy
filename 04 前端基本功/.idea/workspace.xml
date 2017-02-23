@@ -88,8 +88,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="7.操作字符串2.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="7.操作字符串2.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/字符串操作/7.操作字符串2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="70" lean-forward="true" selection-start-line="24" selection-start-column="70" selection-end-line="24" selection-end-column="70" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="8.保留小数位数.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/字符串操作/8.保留小数位数.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
               <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="17" />
@@ -124,6 +134,7 @@
         <option value="$PROJECT_DIR$/字符串操作/5.url网址编码.html" />
         <option value="$PROJECT_DIR$/字符串操作/6.操作字符串1.html" />
         <option value="$PROJECT_DIR$/字符串操作/7.操作字符串2.html" />
+        <option value="$PROJECT_DIR$/字符串操作/8.保留小数位数.html" />
       </list>
     </option>
   </component>
@@ -277,12 +288,12 @@
       <updated>1487740183571</updated>
       <workItem from="1487740185190" duration="979000" />
       <workItem from="1487756309857" duration="13000" />
-      <workItem from="1487776048775" duration="12343000" />
+      <workItem from="1487776048775" duration="12617000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13335000" />
+    <option name="totallyTimeSpent" value="13609000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1260" height="716" extended-state="0" />
@@ -438,6 +449,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/字符串操作/7.操作字符串2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="70" lean-forward="true" selection-start-line="24" selection-start-column="70" selection-end-line="24" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/字符串操作/8.保留小数位数.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="17" />
