@@ -18,11 +18,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="点击跟随图标.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="点击跟随图标.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/常用案例/点击跟随图标/点击跟随图标.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="352">
               <caret line="29" column="20" lean-forward="true" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="求在某个盒子内的坐标.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/常用案例/求在某个盒子内的坐标.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -65,6 +75,7 @@
         <option value="$PROJECT_DIR$/常用案例/筋斗云效果/筋斗云效果.html" />
         <option value="$PROJECT_DIR$/offsetTop和style.top的区别.html" />
         <option value="$PROJECT_DIR$/常用案例/点击跟随图标/点击跟随图标.html" />
+        <option value="$PROJECT_DIR$/常用案例/求在某个盒子内的坐标.html" />
       </list>
     </option>
   </component>
@@ -75,8 +86,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="290" />
-    <option name="y" value="23" />
+    <option name="x" value="34" />
+    <option name="y" value="25" />
     <option name="width" value="1280" />
     <option name="height" value="721" />
   </component>
@@ -119,24 +130,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="常用案例" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="04 前端基本功" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="04 前端基本功" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="常用案例" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="点击跟随图标" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -242,15 +235,15 @@
       <workItem from="1487756309857" duration="13000" />
       <workItem from="1487776048775" duration="14872000" />
       <workItem from="1488204242529" duration="3169000" />
-      <workItem from="1488250142499" duration="6180000" />
+      <workItem from="1488250142499" duration="6952000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25213000" />
+    <option name="totallyTimeSpent" value="25985000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="290" y="23" width="1280" height="721" extended-state="0" />
+    <frame x="34" y="25" width="1280" height="721" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24384432" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -480,6 +473,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="29" column="20" lean-forward="true" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/常用案例/求在某个盒子内的坐标.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
           <folding />
         </state>
       </provider>
