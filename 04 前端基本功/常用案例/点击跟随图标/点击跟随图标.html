@@ -21,8 +21,8 @@
 
     document.onclick = function () {
         var event = event || window.event;
-        targetX = event.clientX;
-        targetY = event.clientY;
+        targetX = event.clientX - image.offsetWidth / 2;
+        targetY = event.clientY - image.offsetHeight / 2;
     }
     // 缓动
     var leaderX = 0,

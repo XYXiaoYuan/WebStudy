@@ -21,8 +21,8 @@
       <file leaf-file-name="点击跟随图标.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/常用案例/点击跟随图标/点击跟随图标.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
-              <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+            <state relative-caret-position="352">
+              <caret line="29" column="20" lean-forward="true" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -242,12 +242,12 @@
       <workItem from="1487756309857" duration="13000" />
       <workItem from="1487776048775" duration="14872000" />
       <workItem from="1488204242529" duration="3169000" />
-      <workItem from="1488250142499" duration="6052000" />
+      <workItem from="1488250142499" duration="6180000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25085000" />
+    <option name="totallyTimeSpent" value="25213000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="290" y="23" width="1280" height="721" extended-state="0" />
@@ -478,8 +478,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/常用案例/点击跟随图标/点击跟随图标.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+        <state relative-caret-position="352">
+          <caret line="29" column="20" lean-forward="true" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
           <folding />
         </state>
       </provider>
