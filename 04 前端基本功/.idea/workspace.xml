@@ -28,11 +28,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="拖动弹出框.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="拖动弹出框.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/常用案例/拖动弹出框.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="50" column="17" lean-forward="true" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
+            <state relative-caret-position="142">
+              <caret line="59" column="7" lean-forward="true" selection-start-line="59" selection-start-column="7" selection-end-line="59" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="模拟垂直滚动条.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/常用案例/模拟垂直滚动条.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="623">
+              <caret line="103" column="0" lean-forward="true" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -81,6 +91,7 @@
         <option value="$PROJECT_DIR$/常用案例/水平滚动条拖动.html" />
         <option value="$PROJECT_DIR$/常用案例/拖动弹出框.css" />
         <option value="$PROJECT_DIR$/常用案例/拖动弹出框.html" />
+        <option value="$PROJECT_DIR$/常用案例/模拟垂直滚动条.html" />
       </list>
     </option>
   </component>
@@ -91,7 +102,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="224" />
+    <option name="x" value="640" />
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="721" />
@@ -241,15 +252,15 @@
       <workItem from="1487756309857" duration="13000" />
       <workItem from="1487776048775" duration="14872000" />
       <workItem from="1488204242529" duration="3169000" />
-      <workItem from="1488250142499" duration="21738000" />
+      <workItem from="1488250142499" duration="23256000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40771000" />
+    <option name="totallyTimeSpent" value="42289000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="224" y="23" width="1280" height="721" extended-state="1" />
+    <frame x="640" y="23" width="1280" height="721" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24384432" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -520,8 +531,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/常用案例/拖动弹出框.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="50" column="17" lean-forward="true" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
+        <state relative-caret-position="142">
+          <caret line="59" column="7" lean-forward="true" selection-start-line="59" selection-start-column="7" selection-end-line="59" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/常用案例/模拟垂直滚动条.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="623">
+          <caret line="103" column="0" lean-forward="true" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
           <folding />
         </state>
       </provider>
