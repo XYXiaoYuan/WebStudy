@@ -42,7 +42,7 @@
         <entry file="file://$PROJECT_DIR$/常用案例/模拟垂直滚动条.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="472">
-              <caret line="103" column="11" lean-forward="false" selection-start-line="103" selection-start-column="11" selection-end-line="103" selection-end-column="11" />
+              <caret line="103" column="6" lean-forward="true" selection-start-line="103" selection-start-column="6" selection-end-line="103" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -252,12 +252,12 @@
       <workItem from="1487756309857" duration="13000" />
       <workItem from="1487776048775" duration="14872000" />
       <workItem from="1488204242529" duration="3169000" />
-      <workItem from="1488250142499" duration="26039000" />
+      <workItem from="1488250142499" duration="26370000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45072000" />
+    <option name="totallyTimeSpent" value="45403000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="640" y="23" width="1280" height="721" extended-state="1" />
@@ -540,7 +540,7 @@
     <entry file="file://$PROJECT_DIR$/常用案例/模拟垂直滚动条.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="472">
-          <caret line="103" column="11" lean-forward="false" selection-start-line="103" selection-start-column="11" selection-end-line="103" selection-end-column="11" />
+          <caret line="103" column="6" lean-forward="true" selection-start-line="103" selection-start-column="6" selection-end-line="103" selection-end-column="6" />
           <folding />
         </state>
       </provider>
