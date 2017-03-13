@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>窗口滚动效果</title>
+    <style>
+        body {
+            height: 3000px;
+        }
+    </style>
+</head>
+<body>
+</body>
+</html>
+<script>
+    window.onscroll = function () {
+//        console.log(11);
+        var scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+        // 标题显示对应的scrollTop值
+        document.title = scrollTop;
+        console.log(scrollTop);
+    }
+</script>
