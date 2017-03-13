@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>封装自己的scrollTop</title>
+    <style>
+        body {
+            height: 3000px;
+        }
+    </style>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    function scroll() {
+        if(window.pageXOffset != null) { // w3c的浏览器
+            return {
+                top: window.pageYOffset,
+                left: window.pageXOffset
+            }
+        } else if(document.compatMode == "CSS1Compat") { // commonMode模式的
+            return {
+                top: document.documentElement.scrollTop,
+                left: document.documentElement.scrollLeft
+            }
+        } else { // 其它
+            return {
+                top: document.body.scrollTop,
+                left: document.body.scrollLeft
+            }
+        }
+    }
+
+    window.onscroll = function () {
+        console.log("上下移动了多少" + scroll().top);
+    }
+</script>
