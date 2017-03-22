@@ -24,8 +24,8 @@
       <file leaf-file-name="屏幕滑动效果.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/常用案例/Scroll家族/屏幕滑动效果.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="61" column="12" lean-forward="false" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="12" />
+            <state relative-caret-position="280">
+              <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -275,12 +275,12 @@
       <workItem from="1488250142499" duration="27686000" />
       <workItem from="1489026877910" duration="2246000" />
       <workItem from="1489379319911" duration="11195000" />
-      <workItem from="1489561258664" duration="2628000" />
+      <workItem from="1489561258664" duration="2929000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62788000" />
+    <option name="totallyTimeSpent" value="63089000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="724" extended-state="1" />
@@ -659,8 +659,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/常用案例/Scroll家族/屏幕滑动效果.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="61" column="12" lean-forward="false" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="12" />
+        <state relative-caret-position="280">
+          <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
           <folding />
         </state>
       </provider>
