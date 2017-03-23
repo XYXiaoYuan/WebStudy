@@ -25,7 +25,7 @@
         <entry file="file://$PROJECT_DIR$/常用案例/Scroll家族/屏幕滑动效果.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="265">
-              <caret line="61" column="11" lean-forward="false" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
+              <caret line="61" column="12" lean-forward="false" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -275,15 +275,15 @@
       <workItem from="1488250142499" duration="27686000" />
       <workItem from="1489026877910" duration="2246000" />
       <workItem from="1489379319911" duration="11195000" />
-      <workItem from="1489561258664" duration="3090000" />
+      <workItem from="1489561258664" duration="3318000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63250000" />
+    <option name="totallyTimeSpent" value="63478000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="724" extended-state="1" />
+    <frame x="0" y="23" width="1280" height="724" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24225576" sideWeight="0.4944356" order="0" side_tool="false" content_ui="combo" />
@@ -660,7 +660,7 @@
     <entry file="file://$PROJECT_DIR$/常用案例/Scroll家族/屏幕滑动效果.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="265">
-          <caret line="61" column="11" lean-forward="false" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
+          <caret line="61" column="12" lean-forward="false" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="12" />
           <folding />
         </state>
       </provider>
