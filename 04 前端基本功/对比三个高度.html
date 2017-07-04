@@ -5,76 +5,25 @@
     <title>对比三个高度</title>
     <style>
         .box {
+            box-sizing: border-box;
             width: 200px;
             height: 200px;
-            background-color: pink;
-            margin: 100px;
-            padding:20px;
-            border-left: 15px solid red;
-            overflow: hidden;
+            background-color: blue;
+            float: left;
+            border: 20px solid #ccc;
+            padding: 20px;
         }
     </style>
 </head>
 <body>
 <div class="box">
     文字内容
-    文字内容
-    文字内容
-    文字内容
-    文字内容
-    文字内容
-    文字内容
-    文字内容
-    文字内容 文字内容
-    文字内容
-    文字内容
-    文字内容
-    文字内容
-    文字内容
-    文字内容
-    文字内容
-    文字内容 文字内容
-    文字内容
-    文字内容
-    文字内容
-    文字内容
-    文字内容
-    文字内容
-    文字内容
-    文字内容 文字内容
-    文字内容
-    文字内容
-    文字内容
-    文字内容
-    文字内容
-    文字内容
-    文字内容
-    文字内容
-    文字内容
-    文字内容
-    文字内容
-    文字内容
-    文字内容
-    文字内容
-    文字内容
-    文字内容
-    文字内容
-    文字内容
-    文字内容
-    文字内容
-    文字内容
-    文字内容
-    文字内容
-    文字内容
-    文字内容
-    文字内容
-    文字内容
 </div>
 </body>
 </html>
 <script>
-    var div = document.getElementsByTagName("div")[0];
-    console.log("offsetWidth:" + div.offsetHeight);  //  height  +  padding  +  border     （披着羊皮的狼）
-    console.log("clientWidth:" +div.clientHeight);   //  height  +  padding      不包含border
-    console.log("scrollWidth:" +div.scrollHeight);   //  大小是内容的大小
+//    var div = document.getElementsByTagName("div")[0];
+//    console.log("offsetWidth:" + div.offsetHeight);  //  height  +  padding  +  border     （披着羊皮的狼）
+//    console.log("clientWidth:" +div.clientHeight);   //  height  +  padding      不包含border
+//    console.log("scrollWidth:" +div.scrollHeight);   //  大小是内容的大小
 </script>
